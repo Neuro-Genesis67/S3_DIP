@@ -12,21 +12,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Temp/Objekter.js">
+        <entry file="file://$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Lektion 2.2/Answer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Temp/Arrays.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="391">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+              <folding>
+                <element signature="e#231#239#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,8 +38,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Temp/Funktioner.js" />
-        <option value="$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Temp/Arrays.js" />
+        <option value="$PROJECT_DIR$/3. Semester/L1 - Introduktion/Opgave 1.4/MergeTwoArrays.js" />
         <option value="$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Temp/Objekter.js" />
+        <option value="$PROJECT_DIR$/3. Semester/___Temp___/Metoder.js" />
+        <option value="$PROJECT_DIR$/3. Semester/___Temp___/test.js" />
+        <option value="$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Temp/Arrays.js" />
+        <option value="$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Lektion 2.3.js" />
+        <option value="$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Lektion 2.1/bubbleSort.js" />
+        <option value="$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Lektion 2.1/Answer.js" />
+        <option value="$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Lektion 2.2/Answer.js" />
       </list>
     </option>
   </component>
@@ -65,7 +66,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,17 +84,11 @@
               <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
               <item name="L2 - Funktioner, objekter og arrays" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
-              <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-              <item name="L2 - Funktioner, objekter og arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="Temp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -104,7 +98,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Github\S3_DIP\3. Semester\L2 - Funktioner, objekter og arrays\Lektion 2.1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -118,21 +117,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Arrays.js">
-    <configuration name="Arrays.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Temp/Arrays.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.Answer.js (1)">
+    <configuration name="Answer.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Lektion 2.2/Answer.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="Funktioner.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Temp/Funktioner.js" working-dir="$PROJECT_DIR$">
+    <configuration name="Answer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Lektion 2.1/Answer.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="Objekter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Temp/Objekter.js" working-dir="$PROJECT_DIR$">
+    <configuration name="Funktioner.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/_Practice/Funktioner.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="bubbleSort.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Lektion 2.1/bubbleSort.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3. Semester/___Temp___/test.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.Arrays.js" />
-        <item itemvalue="Node.js.Objekter.js" />
+        <item itemvalue="Node.js.Answer.js (1)" />
+        <item itemvalue="Node.js.Answer.js" />
+        <item itemvalue="Node.js.bubbleSort.js" />
         <item itemvalue="Node.js.Funktioner.js" />
+        <item itemvalue="Node.js.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -151,22 +158,24 @@
       <workItem from="1548955178207" duration="2900000" />
       <workItem from="1548962332066" duration="378000" />
       <workItem from="1548963229451" duration="620000" />
+      <workItem from="1549006530869" duration="5012000" />
+      <workItem from="1549014840612" duration="4686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5946000" />
+    <option name="totallyTimeSpent" value="15644000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24862096" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14805058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36087295" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36008918" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -184,24 +193,85 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Temp/Funktioner.js">
+    <entry file="file://$PROJECT_DIR$/3. Semester/L1 - Introduktion/Opgave 1.2/bubbleSortString.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L1 - Introduktion/Opgave 1.4/MergeTwoArrays.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
+        <state relative-caret-position="160">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/_Practice/Objekter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/___Temp___/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/_Practice/Arrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/_Practice/Funktioner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="974">
           <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Temp/Objekter.js">
+    <entry file="file://$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Lektion 2.3.js" />
+    <entry file="file://$PROJECT_DIR$/3. Semester/L1 - Introduktion/Materiale/bubbleSort.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L1 - Introduktion/Materiale/number.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L1 - Introduktion/Materiale/semikolon.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L1 - Introduktion/Materiale/typekonvertering.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L1 - Introduktion/Opgave 1.3/bubbleSort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="667">
+          <caret line="29" selection-start-line="29" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Temp/Arrays.js">
+    <entry file="file://$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Lektion 2.1/bubbleSort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="115">
+          <caret line="14" selection-start-line="14" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Lektion 2.1/Answer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/Lektion 2.2/Answer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="e#231#239#0" />
+          </folding>
         </state>
       </provider>
     </entry>
