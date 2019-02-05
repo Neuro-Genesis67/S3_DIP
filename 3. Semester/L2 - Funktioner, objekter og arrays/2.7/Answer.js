@@ -1,25 +1,21 @@
-let theText = "([a{a}]dd()";
-let test = "({";
+let balanced = "[({abekat})]";
+let unbalanced = "({})[";
+let test = "({x})";
 
 function balanceCheck(text) {
     let stack = [];
-    let parenth = ["(", ")"];
-    let square = ["[", "]"];
-    let curly = ["{", "}"];
+    let map = {"(": ")", "[": "]", "{": "}"};
 
     for (let c of text) {
-        if (c in parenth || c in square || c in curly) {
-            console.log("it is");
+        if (c in map) {
+            stack.push(c);
+        } else {
+            //Not done yet
         }
     }
-    Kig
-    på
-    det
-    i
-    skolen
 }
 
-// balanceCheck(theText);
 balanceCheck(test);
+// balanceCheck(unbalanced);
 
 
