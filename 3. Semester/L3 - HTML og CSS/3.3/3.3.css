@@ -1,0 +1,59 @@
+#frame {
+    display: grid;
+    grid-template-areas:
+            "header"
+            "footer";
+    gap: 100px;
+    background-color: #f51219;
+}
+
+#header {
+    grid-area: header;
+    display: grid;
+    grid-template-areas:
+            ". dice1 dice2 dice3 dice4 dice5 ."
+            ". turn . . . roll .";
+}
+#dice1{
+     grid-area: dice1;
+ }
+#dice2{
+    grid-area: dice2;
+}
+#dice3{
+    grid-area: dice3;
+}
+#dice4{
+    grid-area: dice4;
+}
+#dice5{
+    grid-area: dice5;
+}
+#turn {
+    grid-area: turn;
+}
+#roll {
+    grid-area: roll;
+}
+
+#footer {
+    grid-area: footer;
+    display: grid;
+    grid-template-areas:
+            ". tx1 txf1 . . . . ."                            /* 1-s */
+            ". tx2 txf2 . . . . ."                            /* 2-s */
+            ". tx3 txf3 . . . . ."                            /* 3-s */
+            ". tx4 txf4 . . . . ."                            /* 4-s */
+            ". tx5 txf5 . . . . ."                            /* 5-s */
+            ". tx6 txf6 txSum txfSum txBonus txfBonus ."      /* 6-s */
+            ". txOne txfOne . . . . ."                        /* One pair */
+            ". txTwo txfTwo . . . . ."                        /* Two pairs */
+            ". txThree txfThree . . . . ."                    /* Three same */
+            ". txFour txfFour . . . . ."                      /* Four same  */
+            ". txFull txfFull . . . . ."                      /* Full house */
+            ". txSmall txfSmall . . . . ."                    /* Small straight */
+            ". txLarge txfLarge . . . . ."                    /* Large straight*/
+            ". txChance txfChance . . . . ."                  /* Chance */
+            ". txYatzy txfYatzy . . txTotal txfTotal ."       /* Yatzy */;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
