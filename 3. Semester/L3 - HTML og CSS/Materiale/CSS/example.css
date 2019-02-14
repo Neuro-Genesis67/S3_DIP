@@ -1,9 +1,0 @@
-p {
-	color: blue;
-}
-
-h1,h2,h3 { /* store overskrifter */
-	color: white;
-	background-color: gray;
-	text-align: center;
-}
