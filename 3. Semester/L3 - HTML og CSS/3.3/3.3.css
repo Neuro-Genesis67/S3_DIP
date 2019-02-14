@@ -1,18 +1,30 @@
+img{
+    width: 50px;
+    height: 50px;
+}
+
 #frame {
     display: grid;
     grid-template-areas:
             "header"
             "footer";
-    gap: 100px;
-    background-color: #f51219;
+    gap: 25px;
+    padding: 50px;
+    background-color: #5af2f5;
+    width: 600px;
+    height: 1000px;
+    margin: 100px auto;
 }
 
 #header {
-    grid-area: header;
     display: grid;
+    grid-area: header;
+    border: Solid black;
+    padding: 50px;
+    gap: 20px;
     grid-template-areas:
             ". dice1 dice2 dice3 dice4 dice5 ."
-            ". turn . . . roll .";
+            ". turn . . roll roll .";
 }
 #dice1{
      grid-area: dice1;
@@ -35,10 +47,18 @@
 #roll {
     grid-area: roll;
 }
+button {
+    width: 120px;
+    height: 60px;
+
+}
 
 #footer {
-    grid-area: footer;
     display: grid;
+    grid-area: footer;
+    border: solid black;
+    padding: 20px;
+    gap: 20px;
     grid-template-areas:
             ". tx1 txf1 . . . . ."                            /* 1-s */
             ". tx2 txf2 . . . . ."                            /* 2-s */
@@ -55,5 +75,52 @@
             ". txLarge txfLarge . . . . ."                    /* Large straight*/
             ". txChance txfChance . . . . ."                  /* Chance */
             ". txYatzy txfYatzy . . txTotal txfTotal ."       /* Yatzy */;
-    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+input {
+    width: 40px;
+}
+.text {
+    font-size: 18px;
+}
+#tx1 {grid-area: tx1;}
+#txf1 {grid-area: txf1;}
+#tx2 {grid-area: tx2;}
+#txf2 {grid-area: txf2;}
+#tx3 {grid-area: tx3;}
+#txf3 {grid-area: txf3;}
+#tx4 {grid-area: tx4;}
+#txf4 {grid-area: txf4;}
+#tx5 {grid-area: tx5;}
+#txf5 {grid-area: txf5;}
+#tx6 {grid-area: tx6;}
+#txf6 {grid-area: txf6;}
+#txOne {grid-area: txOne;}
+#txfOne {grid-area: txfOne;}
+#txTwo {grid-area: txTwo;}
+#txfTwo {grid-area: txfTwo;}
+#txThree {grid-area: txThree;}
+#txfThree {grid-area: txfThree;}
+#txFour {grid-area: txFour;}
+#txfFour {grid-area: txfFour;}
+#txFull {grid-area: txFull;}
+#txfFull {grid-area: txfFull;}
+#txSmall {grid-area: txSmall;}
+#txfSmall {grid-area: txfSmall;}
+#txLarge {grid-area: txLarge;}
+#txfLarge {grid-area: txfLarge;}
+#txChance {grid-area: txChance;}
+#txfChance {grid-area: txfChance;}
+#txYatzy {grid-area: txYatzy;}
+#txfYatzy {grid-area: txfYatzy;}
+#txSum {grid-area: txSum;}
+#txfSum {grid-area: txfSum;}
+#txBonus {grid-area: txBonus;}
+#txfBonus {grid-area: txfBonus;}
+#txTotal {grid-area: txTotal;}
+#txfTotal {grid-area: txfTotal;}
+
+
+
+
+
