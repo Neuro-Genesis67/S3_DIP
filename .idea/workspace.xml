@@ -12,55 +12,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.55607677">
-      <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.6745971">
-          <split-first>
-            <leaf>
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="74">
-                      <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="140">
-                      <caret line="4" selection-start-line="4" selection-end-line="4" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
-                  <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3. Semester/L5 - Events og Form elements/5.1/opgaver.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3. Semester/L5 - Events og Form elements/5.1/opgaver.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="57" column="15" lean-forward="true" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -71,9 +47,18 @@
         <option value="$PROJECT_DIR$/3. Semester/L3 - HTML og CSS/3.3/3.3.html" />
         <option value="$PROJECT_DIR$/3. Semester/L3 - HTML og CSS/3.3/3.3.css" />
         <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/3.3.html" />
-        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.html" />
         <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.css" />
+        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.html" />
+        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/Test/testfile.html" />
+        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.6/Table.html" />
+        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.6/opgave.js" />
         <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.js" />
+        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.6/Help.js" />
+        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.6/opgave.html" />
+        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.6/listOfMountains.js" />
+        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.6/torben.js" />
+        <option value="$PROJECT_DIR$/3. Semester/L5 - Events og Form elements/5.1/opgaver.html" />
+        <option value="$PROJECT_DIR$/3. Semester/L5 - Events og Form elements/5.1/opgaver.js" />
       </list>
     </option>
   </component>
@@ -87,7 +72,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,39 +83,6 @@
               <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
               <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
               <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
-              <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-              <item name="L2 - Funktioner, objekter og arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
-              <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-              <item name="L2 - Funktioner, objekter og arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="2.1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
-              <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-              <item name="L2 - Funktioner, objekter og arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="2.2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
-              <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-              <item name="L3 - HTML og CSS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
-              <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-              <item name="L3 - HTML og CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="3.3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
@@ -150,36 +101,39 @@
               <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
               <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
               <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-              <item name="L4 - DOM" type="462c0819:PsiDirectoryNode" />
-              <item name="Materiale" type="462c0819:PsiDirectoryNode" />
+              <item name="L5 - Events og Form elements" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
               <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
               <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-              <item name="L4 - DOM" type="462c0819:PsiDirectoryNode" />
-              <item name="Materiale" type="462c0819:PsiDirectoryNode" />
-              <item name="DOM" type="462c0819:PsiDirectoryNode" />
+              <item name="L5 - Events og Form elements" type="462c0819:PsiDirectoryNode" />
+              <item name="5.1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Github\S3_DIP\3. Semester\L4 - DOM\4.1-4.5" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Github\S3_DIP\3. Semester\L4 - DOM\4.6" />
       <recent name="C:\Github\S3_DIP\3. Semester\L4 - DOM\4.1-4.5" />
       <recent name="C:\Github\S3_DIP\3. Semester\L4 - DOM\Materiale\Data" />
       <recent name="C:\Github\S3_DIP\3. Semester\L4 - DOM\Materiale" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Github\S3_DIP\3. Semester\L5 - Events og Form elements\5.1" />
+      <recent name="C:\Github\S3_DIP\3. Semester\L4 - DOM\Materiale\Data" />
+      <recent name="C:\Github\S3_DIP\3. Semester\L4 - DOM\4.1-4.5" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -231,17 +185,18 @@
       <workItem from="1550145030326" duration="5861000" />
       <workItem from="1550152780243" duration="1167000" />
       <workItem from="1550163841841" duration="6586000" />
+      <workItem from="1550219221665" duration="9428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13693000" />
+    <option name="totallyTimeSpent" value="23121000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07604413" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24920969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -271,13 +226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/Materiale/Data/opgave4.6data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3. Semester/L3 - HTML og CSS/3.3/3.3.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -298,15 +246,6 @@
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/Materiale/DOM/DOM3.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -329,24 +268,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/Materiale/DOM/DOM2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -380,10 +305,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/Test/testfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/Materiale/Data/opgave4.6data.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="-1011">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/4.6/listOfMountains.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/4.6/opgave.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L4 - DOM/4.6/torben.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#td#1;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#td#2;n#tr#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L5 - Events og Form elements/5.1/opgaver.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L5 - Events og Form elements/5.1/opgaver.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L5 - Events og Form elements/5.1/opgaver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="57" column="15" lean-forward="true" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
         </state>
       </provider>
     </entry>

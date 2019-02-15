@@ -29,6 +29,19 @@ for (let h1 of all_h1){
     h1.nextElementSibling.replaceWith(newChild);
 }
 
+// 4.5
+for (let x = 1; x <= 3; x++) {
+   let newLink = document.createElement("a");
+   let text = document.createTextNode("Header " + x);
+   newLink.href ="#header" + x;
+   newLink.appendChild(text);
+   newLink.style.display = "block";
+   let top = document.querySelector("#header1");
+   top.parentNode.insertBefore(newLink, top);
+}
+
+
+
 
 
 
