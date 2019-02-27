@@ -12,6 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< Updated upstream
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3. Semester/L5 - Events og Form elements/5.1/opgaver.html">
@@ -32,6 +33,45 @@
         </entry>
       </file>
     </leaf>
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.769092">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/3. Semester/L8 - Højere ordens funktioner og fejlhåndtering/8.1/Answer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="726">
+                  <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/3. Semester/___Temp___/throwAway.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="23">
+                  <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/2.4/Answer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret lean-forward="true" selection-end-line="16" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+>>>>>>> Stashed changes
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,13 +99,16 @@
         <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.6/torben.js" />
         <option value="$PROJECT_DIR$/3. Semester/L5 - Events og Form elements/5.1/opgaver.html" />
         <option value="$PROJECT_DIR$/3. Semester/L5 - Events og Form elements/5.1/opgaver.js" />
+        <option value="$PROJECT_DIR$/3. Semester/___Temp___/throwAway.js" />
+        <option value="$PROJECT_DIR$/3. Semester/L8 - Højere ordens funktioner og fejlhåndtering/8.1/Answer.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="-32" />
+    <option name="y" value="-21" />
     <option name="width" value="1777" />
-    <option name="height" value="1407" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -88,27 +131,26 @@
               <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
               <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
               <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-              <item name="L4 - DOM" type="462c0819:PsiDirectoryNode" />
+              <item name="___Temp___" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
               <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
               <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-              <item name="L4 - DOM" type="462c0819:PsiDirectoryNode" />
-              <item name="4.1-4.5" type="462c0819:PsiDirectoryNode" />
+              <item name="L2 - Funktioner, objekter og arrays" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
               <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
               <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-              <item name="L5 - Events og Form elements" type="462c0819:PsiDirectoryNode" />
+              <item name="L2 - Funktioner, objekter og arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="2.4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
               <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
               <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-              <item name="L5 - Events og Form elements" type="462c0819:PsiDirectoryNode" />
-              <item name="5.1" type="462c0819:PsiDirectoryNode" />
+              <item name="L8 - Højere ordens funktioner og fejlhåndtering" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -120,6 +162,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -148,25 +191,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.opgaver.html">
-    <configuration name="3.3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/S3_DIP/3. Semester/L3 - HTML og CSS/3.3/3.3.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.throwAway.js">
     <configuration name="DOM1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/S3_DIP/3. Semester/L4 - DOM/Materiale/DOM/DOM1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="opgaver.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/S3_DIP/3. Semester/L4 - DOM/4.1-4.5/opgaver.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="Answer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3. Semester/L8 - Højere ordens funktioner og fejlhåndtering/8.1/Answer.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="opgaver.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="throwAway.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3. Semester/___Temp___/throwAway.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.throwAway.js" />
+        <item itemvalue="Node.js.Answer.js" />
         <item itemvalue="JavaScript Debug.opgaver.html" />
         <item itemvalue="Node.js.opgaver.js" />
         <item itemvalue="JavaScript Debug.DOM1.html" />
-        <item itemvalue="JavaScript Debug.3.3.html" />
       </list>
     </recent_temporary>
   </component>
@@ -186,11 +233,17 @@
       <workItem from="1550152780243" duration="1167000" />
       <workItem from="1550163841841" duration="6586000" />
       <workItem from="1550219221665" duration="9428000" />
+<<<<<<< Updated upstream
       <workItem from="1550790325309" duration="31000" />
+=======
+      <workItem from="1550648951120" duration="64000" />
+      <workItem from="1551257241727" duration="6838000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="23152000" />
   </component>
   <component name="ToolWindowManager">
@@ -198,11 +251,19 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24901497" />
+=======
+    <option name="totallyTimeSpent" value="30023000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12381454" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.13625686" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25306576" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.115896635" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -384,6 +445,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+<<<<<<< Updated upstream
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L2 - Funktioner, objekter og arrays/2.4/Answer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/___Temp___/throwAway.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L8 - Højere ordens funktioner og fejlhåndtering/8.1/Answer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
