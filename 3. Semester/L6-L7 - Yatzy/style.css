@@ -1,0 +1,287 @@
+#grid-ydre {
+    background-color: lightslategrey;
+    width: 550px;
+    padding:30px;
+    display: grid;
+    grid-template-areas:
+            'header'
+            'footer';
+    grid-column-gap: 10px;
+    margin: auto;
+    border: 3px groove #fff;
+}
+
+#grid-indre-terninger {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 5px groove #f0f0f0;
+    border-radius: 20px;
+    grid-area: header;
+    display: grid;
+    grid-template-areas:
+            '. terning-1-prik terning-2-prikker terning-3-prikker terning-4-prikker terning-5-prikker .'
+            '. roll roll endTurn endTurn turn .';
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#grid-indre-resultater {
+    padding: 20px;
+    border: 5px groove #f0f0f0;
+    border-radius: 20px;
+    grid-area: footer;
+    display: grid;
+    grid-template-areas:
+            'one-s-Tekst one-s-Tekstfelt . . . .'
+            'two-s-Tekst two-s-Tekstfelt . . . .'
+            'three-s-Tekst three-s-Tekstfelt . . . .'
+            'four-s-Tekst four-s-Tekstfelt . . . .'
+            'five-s-Tekst five-s-Tekstfelt . . . .'
+            'six-s-Tekst six-s-Tekstfelt sum-Tekst sum-Tekstfelt bonus-Tekst bonus-Tekstfelt'
+            'onePair-Tekst onePair-Tekstfelt . . . .'
+            'twoPairs-Tekst twoPairs-Tekstfelt . . . .'
+            'threeSame-Tekst threeSame-Tekstfelt . . . .'
+            'fourSame-Tekst fourSame-Tekstfelt . . . .'
+            'fullHouse-Tekst fullHouse-Tekstfelt . . . .'
+            'smallStraight-Tekst smallStraight-Tekstfelt . . . .'
+            'largeStraight-Tekst largeStraight-Tekstfelt . . . .'
+            'chance-Tekst chance-Tekstfelt . . . .'
+            'yatzy-Tekst yatzy-Tekstfelt . . total-Tekst total-Tekstfelt';
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.tekstfelt-i-resultat-container {
+    width:70px;
+    height: 25px;
+}
+
+.tekst-i-resultat-container {
+    margin:5px;
+}
+
+#onePair-Tekst {
+    grid-area: onePair-Tekst;
+}
+
+#twoPairs-Tekst {
+    grid-area: twoPairs-Tekst;
+}
+
+#threeSame-Tekst {
+    grid-area: threeSame-Tekst;
+}
+
+#fourSame-Tekst {
+    grid-area: fourSame-Tekst;
+}
+
+#fullHouse-Tekst {
+    grid-area: fullHouse-Tekst;
+}
+
+#smallStraight-Tekst {
+     grid-area: smallStraight-Tekst;
+}
+
+#largeStraight-Tekst {
+    grid-area: largeStraight-Tekst;
+}
+
+#chance-Tekst {
+     grid-area: chance-Tekst;
+}
+
+#yatzy-Tekst {
+    grid-area: yatzy-Tekst;
+}
+
+#sum-Tekst {
+    grid-area: sum-Tekst;
+}
+
+#bonus-Tekst {
+     grid-area: bonus-Tekst;
+}
+
+#total-Tekst {
+    grid-area: total-Tekst;
+}
+
+
+#onePair-Tekstfelt {
+    grid-area: onePair-Tekstfelt;
+}
+
+#twoPairs-Tekstfelt {
+    grid-area: twoPairs-Tekstfelt;
+}
+
+#threeSame-Tekstfelt {
+    grid-area: threeSame-Tekstfelt;
+}
+
+#fourSame-Tekstfelt {
+    grid-area: fourSame-Tekstfelt;
+}
+
+#fullHouse-Tekstfelt {
+    grid-area: fullHouse-Tekstfelt;
+}
+
+#smallStraight-Tekstfelt {
+    grid-area: smallStraight-Tekstfelt;
+}
+
+#largeStraight-Tekstfelt {
+    grid-area: largeStraight-Tekstfelt;
+}
+
+#chance-Tekstfelt {
+    grid-area: chance-Tekstfelt;
+}
+
+#yatzy-Tekstfelt {
+    grid-area: yatzy-Tekstfelt;
+}
+
+#sum-Tekstfelt {
+    grid-area: sum-Tekstfelt;
+}
+
+#bonus-Tekstfelt {
+    grid-area: bonus-Tekstfelt;
+}
+
+#total-Tekstfelt {
+    grid-area: total-Tekstfelt;
+}
+
+#one-s-Tekst {
+    grid-area: one-s-Tekst;
+}
+
+#two-s-Tekst {
+    grid-area: two-s-Tekst;
+}
+
+#three-s-Tekst {
+    grid-area: three-s-Tekst;
+}
+
+#four-s-Tekst {
+    grid-area: four-s-Tekst;
+}
+
+#five-s-Tekst {
+    grid-area: five-s-Tekst;
+}
+
+#six-s-Tekst {
+    grid-area: six-s-Tekst;
+}
+
+#one-s-Tekstfelt {
+    grid-area: one-s-Tekstfelt;
+}
+
+#two-s-Tekstfelt {
+    grid-area: two-s-Tekstfelt;
+}
+
+#three-s-Tekstfelt {
+    grid-area: three-s-Tekstfelt;
+}
+
+#four-s-Tekstfelt {
+    grid-area: four-s-Tekstfelt;
+}
+
+#five-s-Tekstfelt {
+    grid-area: five-s-Tekstfelt;
+}
+
+#six-s-Tekstfelt {
+    grid-area: six-s-Tekstfelt;
+}
+
+#terning-1-prik {
+    grid-area: terning-1-prik;
+}
+
+#terning-2-prikker {
+    grid-area: terning-2-prikker;
+}
+
+#terning-3-prikker {
+    grid-area: terning-3-prikker;
+}
+
+#terning-4-prikker {
+    grid-area: terning-4-prikker;
+}
+
+#terning-5-prikker {
+    grid-area: terning-5-prikker;
+}
+
+#turn {
+    grid-area: turn;
+    color: #ffffff;
+    font-family:Arial;
+    font-size:18px;
+    margin: auto;
+    font-weight:bold;
+    text-align: center;
+}
+
+#roll {
+    grid-area: roll;
+    margin-top:20px;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:#ededed;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#777777;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    height: 60px;
+}
+
+#endTurn {
+    grid-area: endTurn;
+    margin-top:20px;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:#ededed;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#777777;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    height: 60px;
+}
+
+
+
+#roll:hover {
+    background-color:#dfdfdf;
+}
+
+img {
+    border-radius: 10px;
+    width:100%;
+}
+
