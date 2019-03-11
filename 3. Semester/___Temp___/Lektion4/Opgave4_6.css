@@ -1,0 +1,16 @@
+td {
+
+    border: 2px solid blue;
+    padding: 1px;
+    margin: 0;
+
+}
+h1 {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid blue;
+    margin: 0;
+}

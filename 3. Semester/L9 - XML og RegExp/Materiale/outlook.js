@@ -4,6 +4,6 @@ const outlook =
     "Åse Andersen (EAAAIDAN) <eaaaasan@students.eaax.dk>; " +
     "Mühl Svendsen (EAAAPESV) <eaaamusv@students.eaax.dk>";
 
-const regex = /
+const regex = / /;
 
 //Her skal du pille navn og email ud.

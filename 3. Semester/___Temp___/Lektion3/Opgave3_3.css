@@ -1,0 +1,55 @@
+body {
+    background-color: lightgoldenrodyellow;
+    margin: 0;
+    padding: 0;
+
+}
+
+.grid-header {
+    display: grid;
+    border: 1px solid blueviolet;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+img {
+    width: 30px;
+}
+
+.grid-terninger {
+    display: grid;
+    border: 2px solid orangered;
+    padding: 1px;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.die {
+    size: 100px;
+}
+
+.grid-footer {
+    display: grid;
+    border: 1px solid blueviolet;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    grid-template-columns: auto auto;
+
+
+}
+
+.grid-rolls {
+    display: grid;
+    grid-column: 6;
+    width: 40%;
+}
+
+.totals {
+    display: grid;
+
+}
+
+
+
