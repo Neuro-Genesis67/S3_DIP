@@ -1,0 +1,11 @@
+td {
+    padding-right : 50px;
+    padding-bottom: 10px;
+
+}
+#tblHeader {
+    color : blue;
+    font-family: "Lucinda console", Courier, monospace;
+    font-size: 25px;
+}
+

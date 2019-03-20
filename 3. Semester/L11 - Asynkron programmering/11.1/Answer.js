@@ -5,3 +5,8 @@ let usersUrl = 'https://jsonplaceholder.typicode.com/users';
 let postsUrl = 'https://jsonplaceholder.typicode.com/posts?userId=';
 // let postsUrl = 'https://jsonplaceholder.typicode.com/postsX?userId=';
 // let postsUrl = 'httpsX://jsonplaceholder.typicode.com/posts?userId=';
+
+
+asynkron er mekanismer der venter på noget og så gør den det
+
+promise er en indpakning af en callback.
