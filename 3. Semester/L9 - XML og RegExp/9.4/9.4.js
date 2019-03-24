@@ -1,23 +1,22 @@
-let oldPass;
-let newPass;
+setInterval(update, 300);
 
-let regex = /^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
+let regex = /(?=.*[-_!"#¤%&\/()@])(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/;
 function update() {
-    oldPass = document.getElementById("oldPass");
-    newPass = document.getElementById("newPass");
-    console.log(oldPass.value);
-    console.log(newPass.value);
+    let oldPass = document.getElementById("oldPass").value;
+    let newPass = document.getElementById("newPass").value;
 
     if (oldPass === newPass) {
-        console.log("pass 1");
-        // They're identical
-        let bool = regex.test(oldPass);
-        console.log(bool);
-        if (bool) {
-            console.log("it's true hwat they say");
+        console.log("Passwords are identical");
+
+        if (regex.test(oldPass)) {
+            console.log("Regex matches");
+            document.getElementById("oldPass").style.backgroundColor = "green";
+            document.getElementById("newPass").style.backgroundColor = "green";
         }
     } else {
         //They're not identical
+        document.getElementById("oldPass").style.backgroundColor = "red";
+        document.getElementById("newPass").style.backgroundColor = "red";
     }
 
 

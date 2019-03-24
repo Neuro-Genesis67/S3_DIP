@@ -26,8 +26,9 @@ class Person {
             }
         };
     }
-
 }
+
+//___________________________________________________________________________________________________
 
     function compare(p1, p2) {
         if (p1.name === p2.name) {
@@ -47,9 +48,7 @@ class Person {
         }
     }
 
-
-// Metoden compare(p1, p2) skal sammenligne to personen, baseret på navn
-
+//___________________________________________________________________________________________________
 
 let p1 = new Person("0705912222", "Tom", "27");
 let p2 = new Person("1132442314", "Adelaide", "64");
@@ -57,12 +56,12 @@ let p3 = new Person("0294719231", "Ruk", "32");
 let p4 = new Person("0705912222", "Tom", "27");
 let p5 = new Person("8356143745", "Madelaide", "12");
 
-console.log("valueOf(): " + p1.valueOf());
-console.log("p1.equals(p2) (true): " + p1.equals(p2));
-console.log("p1.equals(p4) (false): " +p1.equals(p4));
-console.log("compare(p1, p2): " + compare(p1, p2));
-console.log("compare(p1, p4): " + compare(p1, p4) + "\n");
-
+let arr = [p1, p2, p3, p4, p5];
+console.log("Unsorted: ");
+printArr(arr);
+arr.sort(compare);
+console.log("\nSorted: ");
+printArr(arr);
 
 
 

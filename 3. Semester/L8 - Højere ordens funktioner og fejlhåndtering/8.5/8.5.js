@@ -6,20 +6,23 @@
 //     Afprøv implementationen med et par receivers.
 
 let subject = {};
+
 subject['arr'] = [];
+
 subject['registerObserver'] = function (name) {
     let person = {name: name};
     person['receive'] = function (message) {
         console.log(name + " has received the message: " + message);
     }; //Semicolon here?
     this.arr.push(person);
-    console.log(name + " has been registered as an receiver");
+    console.log(name + " has been registered as a receiver");
 };
+
 subject['notifyObservers'] = function (message) {
-    this.arr.forEach( (p) => { //prøv med og uden parentes
+    this.arr.forEach( (p) => {
         p.receive(message);
     })
-}
+};
 
 subject.registerObserver("Thomas");
 subject.registerObserver("Pedro");
