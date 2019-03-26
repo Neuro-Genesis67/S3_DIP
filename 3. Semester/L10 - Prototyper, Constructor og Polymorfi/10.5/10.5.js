@@ -1,1 +1,2 @@
-Not sure, doesn't look like it but I'm unsure.
+// Ja (ikke 100% sikker), det er polymorfi da alle de objekter der bliver oprettet har en metode til fælles som andre objekter man opretter også vil have.
+//     I 8.5 bliver objekterne tilgået i en liste og en fælles metode kaldes på dem alle.

@@ -10,15 +10,18 @@ class Kat {
 //_________________________________________________________________________________
 
 function Hund(navn) {
-    this.navn = navn;
+this.navn = navn;
     if (Hund._antal) Hund._antal++; else Hund._antal = 1;
-    Hund.prototype.toString = function() {
-        return this.constructor.navn + ': ' + this.navn;
-    };
-    Hund._antal = function() {
-        return Hund._antal;
-    };
 }
+
+Hund.prototype.toString = function () {
+    return this.constructor.name + ': ' + this.navn;
+};
+
+Hund._antal = 0;
+Hund.antal = function () {
+    return Hund._antal;
+};
 
 //_________________________________________________________________________________ Ikke sikker på den her er lavet rigtigt.
 
@@ -38,8 +41,10 @@ Person.antal = function () {
 
 let kat = new Kat('Garfield');
 let person = new Person('Harald Jensen');
+let hund = new Hund("Bella");
+let hund2 = new Hund("Brutus");
 
-for (o of [kat, person])
+for (o of [kat, person, hund, hund2])
     console.log(o + " #" + o.constructor.antal());
 // => Kat: Garfield #1
 // => Person: Harald Jensen #1
