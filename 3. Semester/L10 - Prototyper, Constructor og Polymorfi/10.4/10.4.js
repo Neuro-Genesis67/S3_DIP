@@ -17,11 +17,15 @@ pop(e) {
 
 printArr() {
     console.log("| Contents of StringStack: |");
+    if (this.arr[0] == null) {
+        console.log("|       List is empty      |");
+    } else {
 
     for (let e of this.arr) {
         console.log(e);
     }
-    console.log("|__________________________|");
+    }
+    console.log("|__________________________|\n");
 }
 }
 
@@ -36,3 +40,7 @@ ss.push("Bennay");
 ss.printArr();
 
 console.log("Popping: " + ss.pop());
+console.log("Popping: " + ss.pop());
+console.log("Popping: " + ss.pop());
+console.log("Popping: " + ss.pop() + "\n");
+ss.printArr();
