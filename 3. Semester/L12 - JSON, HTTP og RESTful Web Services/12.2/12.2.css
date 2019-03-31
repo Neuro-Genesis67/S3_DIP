@@ -1,0 +1,99 @@
+#container {
+    grid-template-areas:
+            'msgs rooms'
+            'msgs rooms';
+}
+
+#left {
+    grid-area: msgs;
+}
+
+#right {
+    grid-area: rooms;
+}
+
+
+#top {
+    border: 5px solid blue;
+}
+
+#msgTblBody {
+    height:1000px;
+    width: 2000px;
+    display:block;
+    overflow:auto;
+}
+
+/*---------------------------------------*/
+#btm {
+    border: 5px solid blue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#btmMsg {
+    width: 1740px;
+    display: inline-block;
+    padding: 20px 25px;
+    font-size: 20px;
+    border-radius: 0;}
+
+#btmSend {
+    width: 200px;
+    display: inline-block;
+    padding: 20px 25px;
+    font-size: 20px;
+    border-radius: 0;}
+/*---------------------------------------*/
+
+.exampleMessage {
+    border: 2px solid black;
+    display: block;
+    padding: 5px;
+    /*width: 2000px;*/
+    /*height: 50px;*/
+}
+
+#rooms {
+    border: 5px solid red;
+}
+
+.roombtn {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

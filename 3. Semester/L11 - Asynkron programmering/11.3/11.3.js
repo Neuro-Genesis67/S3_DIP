@@ -3,6 +3,7 @@ let postsUrl = 'https://jsonplaceholder.typicode.com/posts?userId=3';
 
 //_____________________________________________________________________
 function name(url) {
+    try {
         fetch(url)
             .then(response => response.json())
             .then(arr => {
@@ -12,8 +13,12 @@ function name(url) {
                     }
                 }
             })
+} catch (e) {
+    console.log('Exception: ' + e);
+}
 };
 function title(url) {
+    try {
         fetch(url)
             .then(response => response.json())
             .then(arr => {
@@ -23,10 +28,14 @@ function title(url) {
                     }
                 }
             })
+} catch (e) {
+    console.log('Exception: ' + e);
+}
     };
 
 //______________________________Async____________________________________
 async function nameAsync(url) {
+    try {
         const response = await fetch(url);
         const arr = await response.json();
         for (let user of arr) {
@@ -34,9 +43,13 @@ async function nameAsync(url) {
                 console.log(user.name);
             }
         }
+    } catch (e) {
+        console.log('Exception: ' + e);
+    }
 };
 
 async function titleAsync(url) {
+    try {
     const response = await fetch(url);
     const arr = await response.json();
     for (let user of arr) {
@@ -44,13 +57,14 @@ async function titleAsync(url) {
             console.log(user.title);
         }
     }
+    } catch (e) {
+        console.log('Exception: ' + e);
+    }
 };
 
 
-Promise.all([name(usersUrl), title(postsUrl)])
+Promise.all([name(usersUrl), title(postsUrl), nameAsync(usersUrl), titleAsync(postsUrl)])
     .catch(error => console.log("Error: " + error));
 
-Promise.all([nameAsync(usersUrl), titleAsync(postsUrl)])
-    .catch(error => console.log("Error: " + error));
 
 
