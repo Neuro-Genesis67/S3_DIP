@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Chat</title>
     <link rel="stylesheet" href="12.2.css"/>
+    <script src="12.2.js" defer></script>
 </head>
 <body>
     <div class="wrapper">
@@ -11,11 +12,11 @@
         <div class="box chat">
             <table>
                 <tbody>
-                <tr class="exampleMessage">
+                <tr class="example">
                     <td> Name: </td>
                     <td> I saw two cute kittens the other day. I cared for them and they loved me</td>
                 </tr>
-                <tr class="exampleMessage">
+                <tr class="example">
                     <td> Name:</td>
                     <td> I saw two cute kittens the other day. I cared for them and wo cute kittens the other day. I cared for them and wo cute kittens the other day. I cared for them and wo cute kittens the other day. I cared for them and wo cute kittens the other day. I cared for them and they loved me</td>
                 </tr>
@@ -28,8 +29,8 @@
         </div>
 
         <div class="box options">
-                        <input id="msg" type="text" placeholder="Your message goes here"/>
-                        <button id="send" onclick="sendAction()">Send message</button>
+                        <input id="inputTxt" type="text" placeholder="Your message goes here"/>
+                        <button id="sendBtn" onclick="Handler.sendMsg()" value="Send message">Send message</button>
         </div>
     </div>
 </body>

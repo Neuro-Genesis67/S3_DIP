@@ -1,21 +1,27 @@
 body {
-    margin: 50px;
+    margin: 60px 150px;
+    text-align: center;
 }
 
 .chat {
     grid-area: chat;
     width: 1300px;
-    height: 800px;
+    height: 700px;
 }
 .rooms {
     grid-area: rooms;
     width: 200px;
-    height: 800px;
+    height: 700px;
 }
+table {
+    border-collapse:collapse
+}
+
+
 .options {
     grid-area: options;
     width: 1560px;
-    height: 100px;
+    height: 40px;
 }
 
 .wrapper {
@@ -38,4 +44,33 @@ body {
     font-size: 120%;
 }
 
+#inputTxt {
+    width: 1250px;
+    display: inline-block;
+    padding: 7px 10px;
+    font-size: 20px;
+    border-radius: 0;}
 
+#sendBtn {
+    width: 200px;
+    display: inline-block;
+    padding: 7px 10px;
+    font-size: 20px;
+    border-radius: 0;}
+
+tr {
+    height: 75px;
+    border: 2px solid whitesmoke;
+}
+
+tbody {
+    overflow: auto;
+}
+
+button {
+    width: 200px;
+    display: inline-block;
+    padding: 7px 10px;
+    font-size: 20px;
+    border-radius: 0;
+}
