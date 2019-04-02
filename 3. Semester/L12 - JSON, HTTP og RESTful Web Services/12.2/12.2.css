@@ -1,100 +1,85 @@
-#container {
-    /*grid-gap: 20px; */
-    grid-template-areas:
-            'msgs rooms'
-            'msgs rooms';
+body {
+    margin: 60px 150px;
+    text-align: center;
 }
 
-#left {
-    grid-area: msgs;
+.chat {
+    grid-area: chat;
+    width: 1300px;
+    height: 700px;
 }
-
-#right {
+.rooms {
     grid-area: rooms;
+    width: 200px;
+    height: 700px;
+}
+table {
+    border-collapse:collapse;
 }
 
-
-#top {
-    border: 5px solid blue;
+.options {
+    grid-area: options;
+    width: 1560px;
+    height: 40px;
 }
 
-#msgTblBody {
-    height:1000px;
-    width: 2000px;
-    display:block;
-    overflow:auto;
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1340px;
+    grid-template-areas:
+            "chat      rooms"
+            "options options";
+    background-color: #fff;
+    color: #d0d0d0;
 }
 
-/*---------------------------------------*/
-#btm {
-    border: 5px solid blue;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.box {
+    background-color: #727272;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 120%;
 }
 
-#btmMsg {
-    width: 1740px;
+#inputTxt {
+    width: 1250px;
     display: inline-block;
-    padding: 20px 25px;
+    padding: 7px 10px;
     font-size: 20px;
     border-radius: 0;}
 
-#btmSend {
+#sendBtn {
     width: 200px;
     display: inline-block;
-    padding: 20px 25px;
+    padding: 7px 10px;
     font-size: 20px;
     border-radius: 0;}
-/*---------------------------------------*/
 
-.exampleMessage {
-    border: 2px solid black;
+tr {
+
+    height: 75px;
+    border: 2px solid #000000;
+}
+
+td {
+    display: compact;
+    width: 630px;
+    text-align: left;
+}
+
+tbody {
     display: block;
-    padding: 5px;
-    /*width: 2000px;*/
-    /*height: 50px;*/
+    width: 1300px;
+    height: 700px;       /* Just for the demo          */
+    overflow-y: auto;    /* Trigger vertical scroll    */
+    overflow-x: hidden;  /* Hide the horizontal scroll */
 }
 
-#rooms {
-    border: 5px solid red;
+button {
+    width: 200px;
+    display: inline-block;
+    padding: 7px 10px;
+    font-size: 20px;
+    border-radius: 0;
 }
-
-.roombtn {
-    display: block;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
