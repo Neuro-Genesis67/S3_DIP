@@ -1,0 +1,41 @@
+body {
+    margin: 50px;
+}
+
+.chat {
+    grid-area: chat;
+    width: 1300px;
+    height: 800px;
+}
+.rooms {
+    grid-area: rooms;
+    width: 200px;
+    height: 800px;
+}
+.options {
+    grid-area: options;
+    width: 1560px;
+    height: 100px;
+}
+
+.wrapper {
+
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1340px;
+    grid-template-areas:
+            "chat      rooms"
+            "options options";
+    background-color: #fff;
+    color: #444;
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 120%;
+}
+
+
