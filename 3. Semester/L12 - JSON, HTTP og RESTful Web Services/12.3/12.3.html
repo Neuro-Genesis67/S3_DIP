@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link rel="stylesheet" href="12.3.css"/>
+    <script src="12.3.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="box chat" >
+            <table>
+                <tbody id="chat">
+                     <!--Chat messages are added and shown here-->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="box rooms" id="buttons">
+           <select id="selectBox" onchange="selectBoxChange()">
+               <!--<option value="one">Books</option>-->
+
+           </select>
+        </div>
+
+        <!--This is the sexy options bar-->
+        <div class="box options">
+                        <input id="inputTxt" type="text" placeholder="Your message goes here"/>
+                        <button id="sendBtn" onclick="Handler.sendMsg()" value="Send message">Send message</button>
+        </div>
+    </div>
+</body>
+</html>
