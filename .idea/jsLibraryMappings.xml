@@ -3,5 +3,6 @@
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$/3. Semester/L15 - MongoDB og Mongoose/Material - Rabeea/Mongoose" libraries="{S3_DIP/3. Semester/L15 - MongoDB og Mongoose/Material/Mongoose/node_modules}" />
     <file url="file://$PROJECT_DIR$/3. Semester/L15 - MongoDB og Mongoose/Material/Mongoose" libraries="{S3_DIP/3. Semester/L15 - MongoDB og Mongoose/Material/Mongoose/node_modules}" />
+    <includedPredefinedLibrary name="Node.js Core" />
   </component>
 </project>
