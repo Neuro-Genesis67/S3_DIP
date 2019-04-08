@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Chat</title>
-    <link rel="stylesheet" href="12.2.css"/>
+    <link rel="stylesheet" href="WebApplication.css"/>
     <script src="12.2.js" defer></script>
 </head>
 <body>
@@ -12,11 +12,11 @@
         <div class="box jokes" >
             <table>
                 <tbody id="jokes">
-                    <tr>
+                    <tr class="joke">
                         <td> Joke 1</td>
                         <td> Punchline</td>
                     </tr>
-                    <tr>
+                    <tr class="joke">
                         <td> Joke 2</td>
                         <td> Punchline</td>
                     </tr>
@@ -28,7 +28,18 @@
         </div>
 
         <div class="box CRUD">
-
+            <table id="createJoke">
+                <tbody id="jokes2">
+                <tr>
+                        <label>Setup</label>
+                        <input class="setup" type="text"/>
+                </tr>
+                <tr>
+                        <label>Punchline</label>
+                        <input class="punchline" type="text"/>
+                </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </body>

@@ -1,5 +1,5 @@
 body {
-    margin: 60px 150px;
+    margin: 22px 150px;
     text-align: center;
 }
 
@@ -8,11 +8,13 @@ body {
     width: 1300px;
     height: 700px;
 }
+
 .sites {
     grid-area: rooms;
     width: 200px;
     height: 700px;
 }
+
 table {
     border-collapse:collapse;
 }
@@ -20,7 +22,7 @@ table {
 .CRUD {
     grid-area: options;
     width: 1560px;
-    height: 40px;
+    height: 80px;
 }
 
 .wrapper {
@@ -71,15 +73,29 @@ td {
 tbody {
     display: block;
     width: 1300px;
-    height: 700px;       /* Just for the demo          */
+    height: 700px;
     overflow-y: auto;    /* Trigger vertical scroll    */
     overflow-x: hidden;  /* Hide the horizontal scroll */
 }
 
-button {
-    width: 200px;
-    display: inline-block;
-    padding: 7px 10px;
-    font-size: 20px;
-    border-radius: 0;
+
+
+/*button {*/
+    /*width: 200px;*/
+    /*display: inline-block;*/
+    /*padding: 7px 10px;*/
+    /*font-size: 20px;*/
+    /*border-radius: 0;*/
+/*}*/
+
+.input {
+    display: block;
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
 }
+
+#createJoke {
+    display: flex;
+}
+
