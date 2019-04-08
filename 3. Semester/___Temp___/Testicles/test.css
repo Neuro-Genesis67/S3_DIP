@@ -1,0 +1,122 @@
+/*---------------Overall styling-----*/
+body {
+    background-color: #92a8d1;
+    margin: 0;
+}
+
+#wrapper {
+    position: fixed;
+    display: grid;
+    grid-template-areas:
+            "jokes sites"
+            "options sites";
+    grid-gap: 20px;
+}
+.padding {
+    margin: 20px;
+    width: auto;
+}
+
+.box {
+    background-color: #ffaa78;
+}
+
+
+
+/*---------------Jokes---------------*/
+.jokesWindow {
+    grid-area: jokes;
+    width: 1000px;
+    height: 600px;
+}
+.jokes {
+
+}
+/*__________*/
+tr {
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+td {
+    width: 630px;
+    text-align: left;
+    border: 2px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+
+/*-----------------------------------*/
+
+
+
+/*---------------Sites---------------*/
+.sitesWindow {
+    grid-area: sites;
+    width: 240px;
+    height: 770px;
+}
+.sites {
+    overflow: scroll;
+    height: 724px;
+}
+/*__________*/
+.siteBtn {
+    height: 40px;
+    width: 180px;
+    margin-bottom: 5px;
+}
+/*-----------------------------------*/
+
+
+
+/*---------------Options-------------*/
+.optionsWindow {
+    grid-area: options;
+    width: 1000px;
+    height: 150px;
+}
+.options {
+    display: grid;
+    grid-template-columns: 12% 60% 28%;
+    grid-column-gap: 28px;
+    grid-template-areas:
+        "setup       setupTxt      create"
+        "punchline  punchlineTxt   delete";
+}
+/*__________*/
+.option {
+    margin-bottom: 27px;
+    height: 40px;
+}
+.optionBtn {
+    width: 150px;
+    margin-left: 59px;
+}
+
+#sTxt {
+    grid-area: setup;
+    font-size: 30px;
+}
+#sInput {
+    grid-area: setupTxt;
+    width: 607px;
+    height: 34px;
+}
+#pTxt {
+    grid-area: punchline;
+    font-size: 30px;
+}
+#pInput {
+    grid-area: punchlineTxt;
+    width: 607px;
+    height: 34px;
+}
+/*-----------------------------------*/
+
+
+
+
+
