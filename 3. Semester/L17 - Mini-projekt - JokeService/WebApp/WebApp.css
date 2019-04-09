@@ -1,7 +1,7 @@
 /*---------------Overall styling-----*/
 body {
-    background-color: #92a8d1;
-    margin: 0;
+    background-color: azure;
+    margin: 50px;
 }
 
 #wrapper {
@@ -18,7 +18,10 @@ body {
 }
 
 .box {
-    background-color: #ffaa78;
+    background-color: rgba(136, 136, 136, 0.61);
+    color: #bd4357;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 
@@ -30,22 +33,30 @@ body {
     height: 600px;
 }
 .jokes {
-
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 560px;
+    max-width: 1000px;
 }
 /*__________*/
 tr {
-    width: 200px;
     height: 50px;
-    border: 2px solid black;
 }
 
 td {
-    width: 630px;
-    text-align: left;
-    border: 2px solid black;
+    text-align: center;
+    border: 2px solid rgba(30, 110, 176, 0.35);
+    background-color: #FFFFFF;
+    font-weight: bold;
+    max-width: 460px;
+    min-width: 460px;
+    font-size: large;
+    white-space: normal;
+    word-wrap: break-word;
 }
 table {
-    border-collapse: collapse;
+    border-spacing: 1px 1em;
+    padding: 0 2em 1em 0;
 }
 
 /*-----------------------------------*/
@@ -64,6 +75,9 @@ table {
 }
 /*__________*/
 .siteBtn {
+    color: #bd4357;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
     height: 40px;
     width: 180px;
     margin-bottom: 5px;
@@ -99,6 +113,7 @@ table {
 #sTxt {
     grid-area: setup;
     font-size: 30px;
+    color: #bd4357;
 }
 #sInput {
     grid-area: setupTxt;
@@ -107,6 +122,7 @@ table {
 }
 #pTxt {
     grid-area: punchline;
+    color: #bd4357;
     font-size: 30px;
 }
 #pInput {
