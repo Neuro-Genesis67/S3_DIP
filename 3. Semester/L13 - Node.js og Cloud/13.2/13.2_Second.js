@@ -2,6 +2,7 @@ const http = require('http');
 const fs = require('fs').promises;
 let html;
 let path = '3. Semester/L13 - Node.js og Cloud/13.2/filer';
+let filer = '3. Semester/L13 - Node.js og Cloud/13.2';
 
 http.createServer((request, response) => {
     response.writeHead(200, {"Content-Type": "text/html"});
@@ -22,11 +23,12 @@ http.createServer((request, response) => {
     } else {
         console.log("2" + request.url);
 
-        let res = '<img src="'+ request.url.slice(1) + '">';
-        console.log(res);
-    // <img src="filer/kat1.jpg">
-        response.write(res);
-        response.end();
+        let sti = filer + request.url;
+        fs.readFile(sti).then(data => {
+            response.writeHead(200);
+            response.write(data);
+            response.end();
+        })
     }
-}).listen(8888);
-console.log('Connect to server in browser with: localhost:8888');
+    console.log('Connect to server in browser with: localhost:8888');
+}).listen(8888);;
