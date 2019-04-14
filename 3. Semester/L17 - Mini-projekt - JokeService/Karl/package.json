@@ -1,0 +1,21 @@
+{
+  "name": "jokeService",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node files/index.js",
+    "start-watch": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "hbs": "^4.0.3",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.1",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
