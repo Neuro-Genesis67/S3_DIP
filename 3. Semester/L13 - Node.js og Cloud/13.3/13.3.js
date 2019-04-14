@@ -13,9 +13,12 @@ http.createServer((request, response) => {
             .then(filer => {
                 html = '';
                 for (let fil of filer) {
-                   if (fil.substring(fil.length-3, fil.length) === "jpg") {
-                       html +=
-                       '<img src="' + "---Path goes here---" + '" alt="Dickpic" width="600" height="400">\n'; // Jeg tror path er forkert
+                    console.log(fil);
+                    if (fil.substring(fil.length-3, fil.length) === "jpg") {
+                       html += '<img src="' + '' +  '">';
+                       // '<img src="' + "../filer/" + fil + '"' + ' alt="Dickpic" width="600" height="400">\n'; // Jeg tror path er forkert
+
+
                    }
                 }
                 response.write(html);

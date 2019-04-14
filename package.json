@@ -1,0 +1,30 @@
+{
+  "name": "S3_DIP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "figlet": "^1.2.1",
+    "handlebars": "^4.1.2",
+    "install": "^0.12.2",
+    "mongoose": "^5.5.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neuro-Genesis67/S3_DIP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neuro-Genesis67/S3_DIP/issues"
+  },
+  "homepage": "https://github.com/Neuro-Genesis67/S3_DIP#readme"
+}
