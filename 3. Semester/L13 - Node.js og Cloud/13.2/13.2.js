@@ -1,58 +1,36 @@
 const http = require('http');
 const fs = require('fs').promises;
 let html;
-let path = 'C:\\Github\\S3_DIP\\3. Semester\\L13 - Node.js og Cloud\\13.2\\filer';
+let path = '3. Semester/L13 - Node.js og Cloud/13.2/filer';
+let filer = '3. Semester/L13 - Node.js og Cloud/13.2';
 
 http.createServer((request, response) => {
     response.writeHead(200, {"Content-Type": "text/html"});
-
     if (request.url === '/') {
-        console.log("1: List of clickable filenames");
-        fs.readdir('filer/')
+        console.log("1");
+        fs.readdir(path)
             .then(filer => {
+                html = "";
                 for (let fil of filer) {
-                    console.log(fil);
-                    // html += '<table><tr href="' + fil + '"></tr></table>';
-                    // html += '<a href="' + fil + '">' + fil + '</a>';
-                    // html += '<a> 1 </a>';
-                    html += "|" + fil;
+                    html += '<a href="filer/' + fil + '">' + fil + '</a><br>';
                 }
-                    response.write(html);
-                    response.end();
-            });
+                console.log("1:" + html);
+                response.write(html);
+                response.end();
+            })
+
+
     } else {
-        console.log("2: Vis den angivne fil");
-        // html = '<img src="' + 'filer' + request.url + '">';
-        // response.write('filer' + request.url);
-        html += '<a> 2 </a>';
-        response.write(html);
-        response.end();
+        console.log("2" + request.url);
+
+        let sti = filer + request.url;
+        fs.readFile(sti).then(data => {
+            console.log(request.url);
+            console.log("data: " + data);
+            response.writeHead(200);
+            response.write(data);
+            response.end();
+        })
     }
-}).listen(8260);
-
-console.log('Lytter på port 8260 ...');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Dom virker ikke på server.
-// request.url har automatisk en / med
+    console.log('Connect to server in browser with: localhost:8888');
+}).listen(8888);;
