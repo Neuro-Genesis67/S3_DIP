@@ -1,0 +1,178 @@
+/*---------------Overall styling-----*/
+body {
+    background-color: azure;
+    margin: 50px;
+}
+
+#wrapper {
+    position: fixed;
+    display: grid;
+    grid-template-areas:
+            "jokes sites"
+            "options sites";
+    grid-gap: 20px;
+}
+.padding {
+    margin: 20px;
+    width: auto;
+}
+
+.box {
+    background-color: rgba(136, 136, 136, 0.61);
+    color: #457EBD;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+/*---------------Jokes---------------*/
+.jokesWindow {
+    grid-area: jokes;
+    width: 1000px;
+    height: 600px;
+}
+.jokes {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 560px;
+    max-width: 1000px;
+}
+/*__________*/
+.jokesRow {
+    height: 50px;
+}
+
+.jokesCell {
+    text-align: center;
+    border: 2px solid rgba(30, 110, 176, 0.35);
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    max-width: 460px;
+    min-width: 460px;
+    font-size: large;
+    white-space: normal;
+    word-wrap: break-word;
+    color: #457EBD;
+}
+
+.jokesTable {
+    border-spacing: 5px;
+    padding: 0 2em 1em 0;
+}
+
+/*-----------------------------------*/
+
+
+
+/*---------------Sites---------------*/
+.sitesWindow {
+    grid-area: sites;
+    width: 400px; //315
+    height: 770px;
+}
+.sites {
+    overflow: scroll;
+    height: 724px;
+}
+
+.sitesTable {
+    padding-top: 3px;
+}
+/*__________*/
+/*.siteBtn {*/
+    /*color: #457EBD;*/
+    /*font-weight: bold;*/
+    /*font-size: large;*/
+    /*background-color: rgb(255, 255, 255);*/
+    /*height: 40px;*/
+    /*width: 250px;*/
+    /*margin-bottom: 5px;*/
+/*}*/
+
+.siteRow {
+    height: 35px;
+}
+
+.siteJokesBtn {
+    width: 260px;
+    height: 48px;
+    color: #457EBD;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(255, 255, 255);
+    /*margin-bottom: 5px;*/
+}
+
+.siteVisitBtn {
+    width: 70px;
+    height: 48px;
+    color: #457EBD;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(255, 255, 255);
+    /*margin-bottom: 5px;*/
+}
+
+
+
+
+
+
+/*-----------------------------------*/
+
+
+
+/*---------------Options-------------*/
+.optionsWindow {
+    grid-area: options;
+    width: 1000px;
+    height: 150px;
+}
+.options {
+    display: grid;
+    grid-template-columns: 12% 60% 28%;
+    grid-column-gap: 28px;
+    grid-template-areas:
+            "setup       setupTxt      create"
+            "punchline  punchlineTxt   delete";
+}
+/*__________*/
+.option {
+    margin-bottom: 27px;
+    height: 40px;
+}
+.optionBtn {
+    width: 150px;
+    margin-left: 59px;
+    color: #457EBD;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(255, 255, 255);
+}
+
+#sTxt {
+    grid-area: setup;
+    font-size: 30px;
+    color: #457ebd;
+}
+#pTxt {
+    grid-area: punchline;
+    color: #457EBD;
+    font-size: 30px;
+}
+#sInput {
+    grid-area: setupTxt;
+    width: 607px;
+    height: 34px;
+}
+#pInput {
+    grid-area: punchlineTxt;
+    width: 607px;
+    height: 34px;
+}
+/*-----------------------------------*/
+
+
+
+
+

@@ -32,5 +32,5 @@ http.createServer((request, response) => {
             response.end();
         })
     }
-    console.log('Connect to server in browser with: localhost:8888');
-}).listen(8888);;
+    console.log('Server listening on port 3000...');
+}).listen(3000);;

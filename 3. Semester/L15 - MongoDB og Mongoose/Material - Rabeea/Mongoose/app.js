@@ -6,7 +6,7 @@ const Schema = mongoose.Schema;
 
 mongoose.Promise = Promise;
 // mongoose.connect('mongodb://localhost/companyDB', {useNewUrlParser: true});
-mongoose.connect('mongodb+srv://sa:<Hdr76nqntom>@cluster0-ztjl9.mongodb.net/test?retryWrites=true', {useNewUrlParser: true});
+mongoose.connect('mongodb+srv://sa:Hdr76nqntom@cluster0-ztjl9.mongodb.net/test?retryWrites=true', {useNewUrlParser: true});
 
 const company = new Schema({
     name: String,

@@ -1,0 +1,9 @@
+{{#each sites}}
+    <tr class="siteRow">
+        <td class="sitesCell">
+            <button class="siteJokesBtn" id="{{this._id}}"> {{this.name}} </button>
+            <button class="siteVisitBtn" onclick="window.location.href = '{{this.address}}'"> Visit </button>
+        </td>
+    </tr>
+{{/each}}
+

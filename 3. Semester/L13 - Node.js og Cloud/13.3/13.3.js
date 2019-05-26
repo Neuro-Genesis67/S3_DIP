@@ -11,14 +11,11 @@ http.createServer((request, response) => {
         console.log("1");
         fs.readdir(path)
             .then(filer => {
-                html = '';
                 for (let fil of filer) {
-                    console.log(fil);
                     if (fil.substring(fil.length-3, fil.length) === "jpg") {
-                       html += '<img src="' + '' +  '">';
-                       // '<img src="' + "../filer/" + fil + '"' + ' alt="Dickpic" width="600" height="400">\n'; // Jeg tror path er forkert
-
-
+                    // let img = path + "/" + fil
+                        console.log(fil);
+                        html = '<img src="' + fil + '" width="600" height="400">\n';
                    }
                 }
                 response.write(html);
@@ -29,6 +26,6 @@ http.createServer((request, response) => {
         let sti = 'filer' + request.url;
         // ...
     }
-}).listen(8888);
+}).listen(3000);
 
-console.log('Connect to server in browser with: localhost:8888');
+console.log('Server listening on port 3000');
