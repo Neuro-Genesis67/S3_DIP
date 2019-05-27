@@ -1,0 +1,14 @@
+{
+  "name": "16.1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.16.1",
+    "express-handlebars": "^3.1.0",
+    "hbs": "~4.0.4",
+    "nodemon": "^1.19.1"
+  }
+}
