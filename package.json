@@ -8,10 +8,12 @@
     "express-handlebars": "^3.0.2",
     "figlet": "^1.2.1",
     "handlebars": "^4.1.2",
+    "hbs": "^4.0.4",
     "install": "^0.12.2",
     "mongoose": "^5.5.1",
     "morgan": "^1.9.1",
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^2.6.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {},
   "scripts": {
