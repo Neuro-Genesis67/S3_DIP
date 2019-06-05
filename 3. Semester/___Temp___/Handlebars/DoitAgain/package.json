@@ -1,0 +1,9 @@
+{
+  "name": "DoitAgain",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.1.2",
+    "node-fetch": "^2.6.0"
+  }
+}
