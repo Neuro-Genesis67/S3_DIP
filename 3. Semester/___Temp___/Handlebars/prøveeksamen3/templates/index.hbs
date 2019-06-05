@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prøveeksamen 3</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+
+<ul id="customerList">
+    {{#each customers}}
+        <li class="customer" id="{{this.phone}}">{{this.name}}</li>
+    {{/each}}
+</ul>
+
+<p id="phone"></p>
+
+</body>
+</html>
