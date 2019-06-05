@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d3cfcf0-391e-4ec5-b392-1ca2fad450df" name="Default Changelist" comment="" />
+    <list default="true" id="d7937863-a6d0-4fd6-b831-8540ccb7c79f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,20 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-<<<<<<< Updated upstream
-        <entry file="file://$PROJECT_DIR$/3. Semester/L11 - Asynkron programmering/Materiale/Asynkron/index.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3. Semester/L14 - Express.js/14.2/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-=======
-        <entry file="file://$PROJECT_DIR$/3. Semester/___Temp___/test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
->>>>>>> Stashed changes
+            <state relative-caret-position="459">
+              <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3. Semester/L14 - Express.js/14.4Tom/messages.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3. Semester/L16 - Templating og Arkitektur/16.1/app.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -34,8 +37,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -43,43 +44,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< Updated upstream
-        <option value="$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/Temp/regex.js" />
-        <option value="$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/Materiale/outlook.js" />
-        <option value="$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/9.2/styling.css" />
-        <option value="$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/9.2/javascript.js" />
-        <option value="$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/9.2/Website.html" />
-        <option value="$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/9.2/Code.js" />
-        <option value="$PROJECT_DIR$/3. Semester/L8 - Højere ordens funktioner og fejlhåndtering/8.1/Answer.js" />
-        <option value="$PROJECT_DIR$/3. Semester/L8 - Højere ordens funktioner og fejlhåndtering/8.2/Answer.js" />
-        <option value="$PROJECT_DIR$/3. Semester/L11 - Asynkron programmering/11.1/Answer.js" />
-        <option value="$PROJECT_DIR$/3. Semester/L11 - Asynkron programmering/Materiale/Asynkron/index.js" />
-=======
-        <option value="$PROJECT_DIR$/3. Semester/L3 - HTML og CSS/3.3/3.3.html" />
-        <option value="$PROJECT_DIR$/3. Semester/L3 - HTML og CSS/3.3/3.3.css" />
-        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/3.3.html" />
-        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.css" />
-        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.html" />
-        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/Test/testfile.html" />
-        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.6/Table.html" />
-        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.6/opgave.js" />
-        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.1-4.5/opgaver.js" />
-        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.6/Help.js" />
-        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.6/opgave.html" />
-        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.6/listOfMountains.js" />
-        <option value="$PROJECT_DIR$/3. Semester/L4 - DOM/4.6/torben.js" />
-        <option value="$PROJECT_DIR$/3. Semester/L5 - Events og Form elements/5.1/opgaver.html" />
-        <option value="$PROJECT_DIR$/3. Semester/L5 - Events og Form elements/5.1/opgaver.js" />
-        <option value="$PROJECT_DIR$/3. Semester/___Temp___/test.js" />
->>>>>>> Stashed changes
+        <option value="$PROJECT_DIR$/1/index.js" />
+        <option value="$PROJECT_DIR$/1/app.js" />
+        <option value="$PROJECT_DIR$/testr.js" />
+        <option value="$PROJECT_DIR$/trial-exam-1/app.js" />
+        <option value="$PROJECT_DIR$/3. Semester/L14 - Express.js/14.2/app.js" />
       </list>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="72" />
+    <option name="y" value="-25" />
+    <option name="width" value="1294" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -99,44 +82,6 @@
               <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
               <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
-              <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-<<<<<<< Updated upstream
-              <item name="L11 - Asynkron programmering" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="___Temp___" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
-              <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-              <item name="L4 - DOM" type="462c0819:PsiDirectoryNode" />
->>>>>>> Stashed changes
-            </path>
-            <path>
-              <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
-              <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-              <item name="L11 - Asynkron programmering" type="462c0819:PsiDirectoryNode" />
-              <item name="11.1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
-              <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-              <item name="L11 - Asynkron programmering" type="462c0819:PsiDirectoryNode" />
-              <item name="Materiale" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="S3_DIP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="S3_DIP" type="462c0819:PsiDirectoryNode" />
-              <item name="3. Semester" type="462c0819:PsiDirectoryNode" />
-              <item name="L11 - Asynkron programmering" type="462c0819:PsiDirectoryNode" />
-              <item name="Materiale" type="462c0819:PsiDirectoryNode" />
-              <item name="Asynkron" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -144,26 +89,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-<<<<<<< Updated upstream
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-=======
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
->>>>>>> Stashed changes
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Github\S3_DIP\3. Semester\L11 - Asynkron programmering\11.3" />
-      <recent name="C:\Github\S3_DIP\3. Semester\L11 - Asynkron programmering\11.2" />
-      <recent name="C:\Github\S3_DIP\3. Semester\L9 - XML og RegExp\9.1" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Github\S3_DIP\3. Semester\L11 - Asynkron programmering\Materiale" />
-      <recent name="C:\Github\S3_DIP\3. Semester\L9 - XML og RegExp\Materiale" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="MTCustomThemeConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,40 +111,25 @@
       </list>
     </option>
   </component>
-<<<<<<< Updated upstream
-  <component name="RunManager" selected="Node.js.index.js">
-    <configuration name="Answer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3. Semester/L8 - Højere ordens funktioner og fejlhåndtering/8.1/Answer.js" working-dir="$PROJECT_DIR$">
-=======
-  <component name="RunManager" selected="Node.js.test.js">
-    <configuration name="3.3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/S3_DIP/3. Semester/L3 - HTML og CSS/3.3/3.3.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="Node.js.app.js (1)">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DIP25_TrialExams/trial-exam-2/filer/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="DOM1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/S3_DIP/3. Semester/L4 - DOM/Materiale/DOM/DOM1.html" useBuiltInWebServerPort="true">
->>>>>>> Stashed changes
+    <configuration name="app.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/trial-exam-3/app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3. Semester/L11 - Asynkron programmering/Materiale/Asynkron/index.js" working-dir="$PROJECT_DIR$">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/trial-exam-2/app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="langvarig2Callback.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3. Semester/L11 - Asynkron programmering/Materiale/Asynkron/langvarig2Callback.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3. Semester/___Temp___/test.js" working-dir="$PROJECT_DIR$">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1/app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< Updated upstream
-        <item itemvalue="Node.js.index.js" />
-        <item itemvalue="Node.js.langvarig2Callback.js" />
-        <item itemvalue="Node.js.Answer.js" />
-=======
-        <item itemvalue="Node.js.test.js" />
-        <item itemvalue="JavaScript Debug.opgaver.html" />
-        <item itemvalue="Node.js.opgaver.js" />
-        <item itemvalue="JavaScript Debug.DOM1.html" />
-        <item itemvalue="JavaScript Debug.3.3.html" />
->>>>>>> Stashed changes
+        <item itemvalue="Node.js.app.js (1)" />
+        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -219,69 +138,43 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2d3cfcf0-391e-4ec5-b392-1ca2fad450df" name="Default Changelist" comment="" />
-      <created>1551427328268</created>
+      <changelist id="d7937863-a6d0-4fd6-b831-8540ccb7c79f" name="Default Changelist" comment="" />
+      <created>1559657025397</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-<<<<<<< Updated upstream
-      <updated>1551427328268</updated>
-      <workItem from="1551427335524" duration="1621000" />
-      <workItem from="1551430923382" duration="313000" />
-      <workItem from="1551434314537" duration="1922000" />
-      <workItem from="1551449676742" duration="2628000" />
-      <workItem from="1551689033986" duration="34000" />
-      <workItem from="1551771265867" duration="65000" />
-      <workItem from="1551860834213" duration="11000" />
-      <workItem from="1551860965837" duration="694000" />
-      <workItem from="1552030600836" duration="2554000" />
-      <workItem from="1552035191023" duration="543000" />
-=======
-      <updated>1550144237168</updated>
-      <workItem from="1550144239548" duration="14000" />
-      <workItem from="1550144895427" duration="65000" />
-      <workItem from="1550145030326" duration="5861000" />
-      <workItem from="1550152780243" duration="1167000" />
-      <workItem from="1550163841841" duration="6586000" />
-      <workItem from="1550219221665" duration="9428000" />
-      <workItem from="1550790325309" duration="31000" />
-      <workItem from="1551205343520" duration="1499000" />
->>>>>>> Stashed changes
+      <updated>1559657025397</updated>
+      <workItem from="1559657026672" duration="7058000" />
+      <workItem from="1559732255443" duration="383000" />
+      <workItem from="1559732650936" duration="529000" />
+      <workItem from="1559733191230" duration="166000" />
+      <workItem from="1559733368447" duration="19000" />
+      <workItem from="1559733398947" duration="8152000" />
+      <workItem from="1559741707348" duration="12000" />
+      <workItem from="1559742363894" duration="72000" />
+      <workItem from="1559743208942" duration="25000" />
+      <workItem from="1559743252360" duration="164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< Updated upstream
-    <option name="totallyTimeSpent" value="10385000" />
-=======
-    <option name="totallyTimeSpent" value="24651000" />
->>>>>>> Stashed changes
+    <option name="totallyTimeSpent" value="16580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-<<<<<<< Updated upstream
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15437302" />
-=======
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24901497" />
->>>>>>> Stashed changes
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11116965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-<<<<<<< Updated upstream
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25975475" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-=======
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38136256" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.115896635" />
->>>>>>> Stashed changes
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967892" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32728708" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39984226" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -292,159 +185,29 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/Materiale/outlook.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/Temp/regex.js" />
-    <entry file="file://$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/Materiale/RegExp/.idea/RegExp.iml">
+    <entry file="file://$PROJECT_DIR$/trial-exam-2/app.js" />
+    <entry file="file://$PROJECT_DIR$/trial-exam-2/filer/handlebars.js" />
+    <entry file="file://$PROJECT_DIR$/trial-exam-2/filer/index.hbs" />
+    <entry file="file://$PROJECT_DIR$/trial-exam-2/filer/index.html" />
+    <entry file="file://$PROJECT_DIR$/trial-exam-2/filer/index.js" />
+    <entry file="file://$PROJECT_DIR$/trial-exam-3/filer/index.js" />
+    <entry file="file://$PROJECT_DIR$/testr.js" />
+    <entry file="file://$PROJECT_DIR$/trial-exam-1/app.js" />
+    <entry file="file://$PROJECT_DIR$/trial-exam-3/app.js" />
+    <entry file="file://$PROJECT_DIR$/trial-exam-3/templates/index.hbs" />
+    <entry file="file://$PROJECT_DIR$/1/app.js" />
+    <entry file="file://$PROJECT_DIR$/3. Semester/L16 - Templating og Arkitektur/16.1/app.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/Materiale/RegExp/.idea/modules.xml">
+    <entry file="file://$PROJECT_DIR$/3. Semester/L14 - Express.js/14.2/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Semester/L14 - Express.js/14.4Tom/messages.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/Materiale/RegExp/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5489" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/9.1/.idea/RegExp.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/9.1/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/9.1/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/9.1/.idea/jsLibraryMappings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L3 - HTML og CSS/3.2/3.2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L3 - HTML og CSS/3.1/3.1.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L3 - HTML og CSS/3.3/3.3.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L5 - Events og Form elements/5.1/opgaver.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L3 - HTML og CSS/3.3/3.3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1656" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/9.2/Styling.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/9.2/Website.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L9 - XML og RegExp/9.2/Code.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L6-L7 - Yatzy/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L6-L7 - Yatzy/GUI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L8 - Højere ordens funktioner og fejlhåndtering/8.1/Answer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L8 - Højere ordens funktioner og fejlhåndtering/8.2/Answer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L11 - Asynkron programmering/Materiale/Asynkron/langvarig2Callback.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L11 - Asynkron programmering/11.3/Answer.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L11 - Asynkron programmering/Materiale/Asynkron/opgaver11.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L11 - Asynkron programmering/Materiale/Asynkron/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L11 - Asynkron programmering/11.2/Answer.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L11 - Asynkron programmering/11.1/Answer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="72" lean-forward="true" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/L11 - Asynkron programmering/Materiale/Asynkron/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="276">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-=======
-        <state relative-caret-position="583">
-          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
->>>>>>> Stashed changes
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Semester/___Temp___/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
   </component>
 </project>
