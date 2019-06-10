@@ -1,4 +1,3 @@
-// bubbleSort.js
 let list = ["Abe", "Zebra", "Busk", "Sofa", "Xavier", "Appelsin", "Kommode"];
 console.log("Unsorted list of strings: \n" + list + "\n");
 

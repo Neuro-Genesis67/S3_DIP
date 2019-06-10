@@ -1,4 +1,4 @@
-// bubbleSort.js
+// app.js
 let list = [7, 13, 9, 8, 4, 1, 2, 16, 0];
 
 for (let i = list.length - 1; i >= 0; i--) {
