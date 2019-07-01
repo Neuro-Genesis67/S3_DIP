@@ -17,7 +17,7 @@ const employee = new Schema({
     name: String,
     employmentDate: Date,
     wage: Number,
-    company: {type: ObjectId, ref: 'Company'} // 0..1 link to Company
+    company: {type: ObjectId, ref: 'Company'} // 0..01 JavaScript introduktion link to Company
 });
 const Employee = mongoose.model('Employee', employee);
 

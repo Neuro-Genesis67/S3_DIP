@@ -34,13 +34,13 @@ const GUI = {
 
 
 
-},
+    },
 
     // dice-clicked method
     diceClicked : function(element){
         let images = document.querySelectorAll("img");
-        // the dice images are disabled when the program runs & when the round ends (if a user choose a textfield)
-        // when the roll button is clicked the dice images will be activated and it will be possible to hold a dice image
+        // the dice images are disabled when the program runs & when the turn ends (if a user choose a textfield)
+        // when the rolls button is clicked the dice images will be activated and it will be possible to hold a dice image
 
         if(images[0].disabled == false) {
             for (let i = 0; i < YATZY.holds.length; i++) {
@@ -62,7 +62,7 @@ const GUI = {
     },
 
     // button method
-    rollAction : function(){
+    roll : function(){
 
         let images = document.querySelectorAll("img");
 
@@ -74,13 +74,13 @@ const GUI = {
             // the images will be activated
             images[i].disabled = false;
 
-            // the images changes when the roll button is clicked - only the images which are not clicked is changing
+            // the images changes when the rolls button is clicked - only the images which are not clicked is changing
             if(YATZY.holds[i] == false) {
                 images[i].src = YATZY.diceImages[YATZY.values[i]];
             }
         }
 
-        // <p> for the number of rolls in the same round
+        // <p> for the number of rolls in the same turn
         let turn = document.querySelector("p");
         turn.innerHTML = "Turn: " + YATZY.throwCount;
 
@@ -96,11 +96,11 @@ const GUI = {
             }
         }
 
-        // If it is the third throw in the same round the Roll button must be
+        // If it is the third throw in the same turn the Roll button must be
         // deactivated - the button will be reactivated again when the user clicks on
         // one of the result fields
         if (YATZY.throwCount == 3) {
-            let button = document.querySelector("#roll");
+            let button = document.querySelector("#rolls");
             button.style.backgroundColor = "#cccccc";
             button.disabled = true;
         }
@@ -123,13 +123,13 @@ const GUI = {
         let total = document.querySelector("#total-Tekstfelt");
 
         // If the dice are thrown, you can choose one of the result fields. Each time
-        // you click one of the fields a new round will start and the number of
+        // you click one of the fields a new turn will start and the number of
         // throws will be reset. In other words: you can not click/select more than one
         // field each time you throw
         if (YATZY.throwCount != 0) {
             let txfResults = document.querySelectorAll("input");
 
-            let button = document.querySelector("#roll");
+            let button = document.querySelector("#rolls");
             button.disabled = false;
             button.style.backgroundColor = "#ededed";
 
@@ -137,7 +137,7 @@ const GUI = {
 
                 if(txfResults[i] == element) {
 
-                    // if the field is between 1-s to 6-s the value will be added to the sum
+                    // if the field is between 01 JavaScript introduktion-s to 6-s the value will be added to the sum
                     if(i < 6) {
                         sum.value = Number(sum.value) + Number(txfResults[i].value);
                     } else if (i >= 6) {
@@ -162,7 +162,7 @@ const GUI = {
             // activated)
             for (let i = 0; i < YATZY.values.length; i++) {
                 YATZY.values[i] = 0;
-                images[i].disabled = true; // the images with the dices are deactivated until the roll-button is clicked
+                images[i].disabled = true; // the images with the dices are deactivated until the rolls-button is clicked
                 images[i].style.border = "initial";
                 YATZY.holds[i] = false;
             }
@@ -177,7 +177,7 @@ const GUI = {
             for (let i = 0; i < txfResults.length; i++) {
                 // each time a field is disabled which means when a field is selected
                 if (txfResults[i].disabled == true) {
-                    roundCount = roundCount + 1; // then it will count a round
+                    roundCount = roundCount + 1; // then it will count a turn
                 }
             }
 
@@ -202,7 +202,7 @@ const GUI = {
                     total.value = 0;
                     roundCount = 0;
                 } else {
-                    let button = document.querySelector("#roll");
+                    let button = document.querySelector("#rolls");
                     button.disabled = true;
                 }
             }
@@ -214,11 +214,11 @@ const GUI = {
                 GUI.txfSelected = false;
             }
 
-            // If the user chooses more than one field in the same round (with only one
-            // roll) a popup window will appear asking the user to Roll/throw the dices
+            // If the user chooses more than one field in the same turn (with only one
+            // rolls) a popup window will appear asking the user to Roll/throw the dices
             // first
         } else {
-            alert("You must roll one time before choosing a field");
+            alert("You must rolls one time before choosing a field");
         }
     }
 

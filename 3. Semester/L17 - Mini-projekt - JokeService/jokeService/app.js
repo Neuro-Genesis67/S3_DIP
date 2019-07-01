@@ -31,6 +31,7 @@ app.get('/', (req, res) => {
     res.render('body', {
         jokes: jokesList,
         sites: sitesList
+
     });
 });
 

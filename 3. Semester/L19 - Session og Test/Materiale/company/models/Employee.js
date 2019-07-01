@@ -6,7 +6,7 @@ const employee = new Schema({
     name: String,
     employmentDate : Date,
     wage: Number,
-    company: {type: Schema.Types.ObjectId, ref: 'Company'} // 0..1 link to Company
+    company: {type: Schema.Types.ObjectId, ref: 'Company'} // 0..01 JavaScript introduktion link to Company
 });
 
 employee.methods.toString = function() {

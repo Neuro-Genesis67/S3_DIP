@@ -1,10 +1,10 @@
-// 4.1
+// 4.01 JavaScript introduktion
 let all_p = document.querySelectorAll("p");
 for (let p of all_p) {
     p.style.color = "red";
 }
 
-// 4.2
+// 4.02 Funktioner, objekter og arrays
 let all_h1 = document.querySelectorAll("h1");
 for (let h1 of all_h1) {
     h1.nextElementSibling.nextElementSibling.style.color = "brown";

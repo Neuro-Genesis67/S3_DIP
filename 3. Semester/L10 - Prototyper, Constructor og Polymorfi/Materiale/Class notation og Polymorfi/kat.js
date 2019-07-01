@@ -16,7 +16,7 @@ class Kat {
 let kat = new Kat('Garfield');
 
 console.log(kat.toString()); // => Kat: Garfield
-console.log(Kat._antal); // => 1
-console.log(Kat.antal()); // => 1
+console.log(Kat._antal); // => 01 JavaScript introduktion
+console.log(Kat.antal()); // => 01 JavaScript introduktion
 console.log(kat._antal); // => undefined
 console.log(kat.antal()); // => TypeError: kat.antal is not a function

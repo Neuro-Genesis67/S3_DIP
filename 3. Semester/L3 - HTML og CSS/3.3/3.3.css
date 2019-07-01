@@ -61,7 +61,7 @@ button {
     gap: 20px;
     grid-template-areas:
             ". tx1 txf1 . . . . ."                            /* 1-s */
-            ". tx2 txf2 . . . . ."                            /* 2-s */
+            ". tx2 txf2 . . . . ."                            /* 02 Funktioner, objekter og arrays-s */
             ". tx3 txf3 . . . . ."                            /* 3-s */
             ". tx4 txf4 . . . . ."                            /* 4-s */
             ". tx5 txf5 . . . . ."                            /* 5-s */

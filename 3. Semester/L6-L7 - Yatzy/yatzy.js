@@ -34,7 +34,7 @@ const YATZY = {
 
     /**
      * Rolls the 5 dice. <br/>
-     * Only roll dice that are not hold. <br/>
+     * Only rolls dice that are not hold. <br/>
      * Requires: holds contain 5 boolean values.
      */
 

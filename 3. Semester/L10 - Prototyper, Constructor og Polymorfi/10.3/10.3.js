@@ -46,5 +46,5 @@ let hund2 = new Hund("Brutus");
 
 for (o of [kat, person, hund, hund2])
     console.log(o + " #" + o.constructor.antal());
-// => Kat: Garfield #1
-// => Person: Harald Jensen #1
+// => Kat: Garfield #01 JavaScript introduktion
+// => Person: Harald Jensen #01 JavaScript introduktion

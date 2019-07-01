@@ -1,0 +1,1 @@
+//Udvid løsningen til forrige opgave, så det i klienten er muligt at skifte imellem chat rooms via et HTML Select-tag.

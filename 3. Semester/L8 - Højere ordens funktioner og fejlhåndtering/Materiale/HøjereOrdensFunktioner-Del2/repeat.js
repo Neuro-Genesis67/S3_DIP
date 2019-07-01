@@ -8,8 +8,8 @@ function repeat(n, action) {
 repeat(3, console.log);
 // => 0
 // => 1
-// => 2
+// => 02 Funktioner, objekter og arrays
 
 let labels = [];
 repeat(4, i => labels.push(`Unit ${i + 1}`));
-console.log(labels); // => [ 'Unit 1', 'Unit 2', 'Unit 3', 'Unit 4' ]
+console.log(labels); // => [ 'Unit 1', 'Unit 02 Funktioner, objekter og arrays', 'Unit 3', 'Unit 4' ]
